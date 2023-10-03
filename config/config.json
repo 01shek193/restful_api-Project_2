@@ -1,0 +1,36 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "root",
+    "database": "db_api_rest2",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "development1": {
+    "username": "root",
+    "password": null,
+    "database": "db_api_rest",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "db_api_rest_gky2_user",
+    "password": "qJqGWvt0HXwE6qN9aU5nOe5lR3AvlwCy",
+    "database": "db_api_rest_gky2",
+    "host": "oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions":{
+      "ssl":{
+        "require": true,
+        "rejectUnauthotized":false
+      }
+    }
+  }
+}
